@@ -3,12 +3,10 @@
 @section('title', '¿Quiénes somos?')
 
 @section('content')
-    <!-- Page Header -->
-    <div class="bg-primary">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <h1 class="text-4xl font-extrabold text-white">¿Quiénes somos?</h1>
-        </div>
-    </div>
+    <x-page-header
+        text="¿Quiénes somos?"
+        image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    />
 
     <!-- Main Content -->
     <div class="bg-white">

@@ -3,12 +3,10 @@
 @section('title', 'Contacto')
 
 @section('content')
-    <!-- Page Header -->
-    <div class="bg-primary">
-        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-            <h1 class="text-4xl font-extrabold text-white">Contacto</h1>
-        </div>
-    </div>
+    <x-page-header
+        text="Contacto"
+        image="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    />
 
     <!-- Main Content -->
     <div class="py-16 bg-white">
@@ -64,9 +62,7 @@
                             <textarea name="message" id="message" rows="4" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm"></textarea>
                         </div>
                         <div>
-                            <button type="submit" class="w-full flex justify-center py-3 px-6 border border-primary rounded text-base font-medium text-white bg-primary hover:bg-transparent hover:text-primary transition-colors duration-300">
-                                Enviar Mensaje
-                            </button>
+                            <x-button as="button" variant="primary">Enviar Mensaje</x-button>
                         </div>
                     </form>
                 </div>
