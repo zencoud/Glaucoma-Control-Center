@@ -5,24 +5,14 @@
 <div class="bg-white">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-            <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Conoce nuestras instalaciones</h2>
-            <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-600">Contamos con un espacio moderno y confortable, equipado con la última tecnología para tu cuidado.</p>
+            <h2 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Nuestro Centro Médico</h2>
+            <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-600">Descubre nuestro espacio de trabajo, tecnología y el equipo que cuida de tu salud visual.</p>
         </div>
         
         @if($galleryImages->count() > 0)
             <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
                 @foreach($galleryImages as $image)
-                    <div class="bg-white">
-                        <img src="{{ $image->thumbnail_url }}" 
-                             alt="{{ $image->title }}" 
-                             class="w-full h-64 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-bold text-primary">{{ $image->title }}</h3>
-                            @if($image->description)
-                                <p class="mt-4 text-base text-gray-600">{{ Str::limit($image->description, 120) }}</p>
-                            @endif
-                        </div>
-                    </div>
+                    <x-home-gallery-card :image="$image" />
                 @endforeach
             </div>
         @else
