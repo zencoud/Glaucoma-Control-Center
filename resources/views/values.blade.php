@@ -6,6 +6,11 @@
     <x-page-header
         text="Nuestros Valores"
         :image="null"
+        breadcrumbStyle="gradient"
+        :breadcrumbs="[
+            ['text' => 'Inicio', 'url' => '/'],
+            ['text' => 'Nuestros Valores']
+        ]"
     />
 
     <!-- Main Content -->

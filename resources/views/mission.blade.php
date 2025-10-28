@@ -6,6 +6,11 @@
     <x-page-header
         text="Misión y Visión"
         :image="null"
+        breadcrumbStyle="primary"
+        :breadcrumbs="[
+            ['text' => 'Inicio', 'url' => '/'],
+            ['text' => 'Misión y Visión']
+        ]"
     />
 
     <!-- Main Content -->

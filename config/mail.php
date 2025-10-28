@@ -115,4 +115,16 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Admin Email Configuration
+    |--------------------------------------------------------------------------
+    |
+    | This option controls the admin email address where contact form
+    | submissions will be sent.
+    |
+    */
+
+    'admin_email' => env('MAIL_ADMIN_EMAIL', null),
+
 ];

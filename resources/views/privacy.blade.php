@@ -7,6 +7,10 @@
     <x-page-header
         text="Aviso de Privacidad"
         :image="null"
+        :breadcrumbs="[
+            ['text' => 'Inicio', 'url' => '/'],
+            ['text' => 'Aviso de Privacidad']
+        ]"
     />
 
     <!-- Main Content -->

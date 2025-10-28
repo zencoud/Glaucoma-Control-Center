@@ -7,6 +7,11 @@
     <x-page-header
         text="Galería"
         :image="null"
+        breadcrumbStyle="secondary"
+        :breadcrumbs="[
+            ['text' => 'Inicio', 'url' => '/'],
+            ['text' => 'Galería']
+        ]"
     />
 
 <!-- Gallery Section -->

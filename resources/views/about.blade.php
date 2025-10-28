@@ -6,6 +6,11 @@
     <x-page-header
         text="¿Quiénes somos?"
         :image="null"
+        breadcrumbStyle="primary"
+        :breadcrumbs="[
+            ['text' => 'Inicio', 'url' => '/'],
+            ['text' => '¿Quiénes somos?']
+        ]"
     />
 
     <!-- Main Content -->
