@@ -1,7 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'Galería | Glaucoma Control Center')
-@section('description', 'Conoce nuestro centro médico, tecnología y equipo especializado en el cuidado de tu salud visual.')
+@section('title', 'Galería | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('description', 'Conoce nuestras instalaciones y tecnología de vanguardia en Glaucoma Control Center. Galería de imágenes de nuestro centro médico especializado en glaucoma y salud visual.')
+@section('keywords', 'galería, instalaciones, centro médico, tecnología, equipos, oftalmología, glaucoma, salud visual, fotos, imágenes, centro especializado')
+@section('og_title', 'Galería | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('og_description', 'Conoce nuestras instalaciones y tecnología de vanguardia. Galería de imágenes de nuestro centro médico especializado en glaucoma y salud visual.')
+@section('og_image', url('/img/glaucoma-control-center-logo.png'))
+@section('twitter_title', 'Galería | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('twitter_description', 'Conoce nuestras instalaciones y tecnología de vanguardia. Galería de imágenes de nuestro centro médico especializado en glaucoma y salud visual.')
+@section('twitter_image', url('/img/glaucoma-control-center-logo.png'))
 
 @section('content')
     <x-page-header

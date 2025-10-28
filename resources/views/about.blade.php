@@ -1,6 +1,14 @@
 @extends('layouts.app')
 
-@section('title', '¿Quiénes somos?')
+@section('title', 'Quiénes Somos | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('description', 'Conoce a nuestro equipo de especialistas en glaucoma. En Glaucoma Control Center, contamos con oftalmólogos altamente capacitados y tecnología de vanguardia para brindarte la mejor atención en salud visual.')
+@section('keywords', 'quienes somos, equipo médico, oftalmólogos, especialistas glaucoma, centro médico, experiencia, tecnología, atención personalizada, salud visual')
+@section('og_title', 'Quiénes Somos | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('og_description', 'Conoce a nuestro equipo de especialistas en glaucoma. Contamos con oftalmólogos altamente capacitados y tecnología de vanguardia para brindarte la mejor atención en salud visual.')
+@section('og_image', url('/img/glaucoma-control-center-logo.png'))
+@section('twitter_title', 'Quiénes Somos | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('twitter_description', 'Conoce a nuestro equipo de especialistas en glaucoma. Contamos con oftalmólogos altamente capacitados y tecnología de vanguardia para brindarte la mejor atención en salud visual.')
+@section('twitter_image', url('/img/glaucoma-control-center-logo.png'))
 
 @section('content')
     <x-page-header

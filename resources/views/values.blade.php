@@ -1,6 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'Nuestros Valores')
+@section('title', 'Nuestros Valores | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('description', 'Descubre los valores que guían nuestro centro médico especializado en glaucoma. Empatía, prevención, calidad, educación, confianza, ética, responsabilidad y compromiso en cada atención.')
+@section('keywords', 'valores, principios, empatía, prevención, calidad, educación, confianza, ética, responsabilidad, compromiso, centro médico, glaucoma, atención médica')
+@section('og_title', 'Nuestros Valores | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('og_description', 'Descubre los valores que guían nuestro centro médico especializado en glaucoma. Empatía, prevención, calidad, educación, confianza, ética, responsabilidad y compromiso en cada atención.')
+@section('og_image', url('/img/glaucoma-control-center-logo.png'))
+@section('twitter_title', 'Nuestros Valores | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('twitter_description', 'Descubre los valores que guían nuestro centro médico especializado en glaucoma. Empatía, prevención, calidad, educación, confianza, ética, responsabilidad y compromiso en cada atención.')
+@section('twitter_image', url('/img/glaucoma-control-center-logo.png'))
 
 @section('content')
     <x-page-header

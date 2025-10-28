@@ -1,6 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'Contacto')
+@section('title', 'Contacto | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('description', 'Contáctanos para agendar tu consulta de glaucoma. En Glaucoma Control Center te brindamos atención especializada, humana y de excelencia. Teléfono, email e Instagram disponibles.')
+@section('keywords', 'contacto, consulta, cita, glaucoma, oftalmología, teléfono, email, Instagram, atención médica, especialistas, salud visual, agendar')
+@section('og_title', 'Contacto | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('og_description', 'Contáctanos para agendar tu consulta de glaucoma. Te brindamos atención especializada, humana y de excelencia. Teléfono, email e Instagram disponibles.')
+@section('og_image', url('/img/glaucoma-control-center-logo.png'))
+@section('twitter_title', 'Contacto | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('twitter_description', 'Contáctanos para agendar tu consulta de glaucoma. Te brindamos atención especializada, humana y de excelencia. Teléfono, email e Instagram disponibles.')
+@section('twitter_image', url('/img/glaucoma-control-center-logo.png'))
 
 @section('content')
     <x-page-header

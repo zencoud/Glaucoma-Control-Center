@@ -1,7 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'Aviso de Privacidad | Glaucoma Control Center')
-@section('description', 'Aviso de privacidad de Glaucoma Control Center. Conoce cómo protegemos y manejamos tu información personal.')
+@section('title', 'Aviso de Privacidad | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('description', 'Aviso de privacidad de Glaucoma Control Center. Conoce cómo protegemos y manejamos tu información personal y médica de manera confidencial y segura.')
+@section('keywords', 'aviso de privacidad, protección de datos, confidencialidad, información médica, privacidad, seguridad, datos personales, RGPD')
+@section('og_title', 'Aviso de Privacidad | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('og_description', 'Aviso de privacidad de Glaucoma Control Center. Conoce cómo protegemos y manejamos tu información personal y médica de manera confidencial y segura.')
+@section('og_image', url('/img/glaucoma-control-center-logo.png'))
+@section('twitter_title', 'Aviso de Privacidad | Glaucoma Control Center - Especialistas en Salud Visual')
+@section('twitter_description', 'Aviso de privacidad de Glaucoma Control Center. Conoce cómo protegemos y manejamos tu información personal y médica de manera confidencial y segura.')
+@section('twitter_image', url('/img/glaucoma-control-center-logo.png'))
 
 @section('content')
     <x-page-header
