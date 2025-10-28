@@ -4,15 +4,10 @@
 @section('description', 'Conoce nuestro centro médico, tecnología y equipo especializado en el cuidado de tu salud visual.')
 
 @section('content')
-<!-- Header Section -->
-<div class="bg-gray-50">
-    <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div class="text-center">
-            <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">Galería</h1>
-            <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-600">Descubre nuestro espacio de trabajo, tecnología y el equipo que cuida de tu salud visual.</p>
-        </div>
-    </div>
-</div>
+    <x-page-header
+        text="Galería"
+        :image="null"
+    />
 
 <!-- Gallery Section -->
 <div class="bg-white" 

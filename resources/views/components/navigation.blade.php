@@ -56,11 +56,11 @@
             <div class="flex justify-between h-16">
                 @php
                     $navLinks = [
-                        '/' => 'Inicio',
-                        'quienes-somos' => '¿Quiénes somos?',
-                        'mision-vision' => 'Misión y visión',
-                        'valores' => 'Valores',
-                        'servicios' => 'Servicios',
+                        '/' => 'INICIO',
+                        'quienes-somos' => '¿QUIÉNES SOMOS?',
+                        'mision-vision' => 'MISIÓN Y VISIÓN',
+                        'valores' => 'VALORES',
+                        'servicios' => 'SERVICIOS',
                     ];
                 @endphp
 
@@ -79,11 +79,11 @@
     <!-- Mobile menu, show/hide based on menu state. -->
     <div x-show="open" x-transition class="sm:hidden bg-white border-t border-gray-200">
         <div class="pt-2 pb-3 space-y-1">
-            <a href="/" class="{{ request()->is('/') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">Inicio</a>
-            <a href="/quienes-somos" class="{{ request()->is('quienes-somos') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">¿Quiénes somos?</a>
-            <a href="/mision-vision" class="{{ request()->is('mision-vision') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">Misión y visión</a>
-            <a href="/valores" class="{{ request()->is('valores') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">Valores</a>
-            <a href="/servicios" class="{{ request()->is('servicios') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">Servicios</a>
+            <a href="/" class="{{ request()->is('/') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">INICIO</a>
+            <a href="/quienes-somos" class="{{ request()->is('quienes-somos') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">¿QUIÉNES SOMOS?</a>
+            <a href="/mision-vision" class="{{ request()->is('mision-vision') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">MISIÓN Y VISIÓN</a>
+            <a href="/valores" class="{{ request()->is('valores') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">VALORES</a>
+            <a href="/servicios" class="{{ request()->is('servicios') ? 'bg-secondary/10 border-l-4 border-secondary text-primary font-bold' : 'border-l-4 border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800' }} block pl-3 pr-4 py-2 text-base font-medium">SERVICIOS</a>
         </div>
     </div>
 </header>
