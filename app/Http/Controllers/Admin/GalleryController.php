@@ -168,7 +168,9 @@ class GalleryController extends Controller
         $thumbnailPath = 'gallery/' . $thumbnailFilename;
         
         $image = $this->imageManager->read($imageFile);
-        $image->scaleDown(300, 300);
+        
+        // Redimensionar manteniendo proporción y recortando para hacer cuadrada
+        $image->cover(300, 300);
         
         Storage::disk('public')->put($thumbnailPath, $image->encode());
         
