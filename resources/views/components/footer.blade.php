@@ -3,7 +3,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Navegación -->
             <div>
-                <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase">Navegación</h3>
+                <h3 class="text-sm font-semibold text-gray-200 tracking-wider">Navegación</h3>
                 <ul class="mt-4 space-y-4">
                     <li><a href="/quienes-somos" class="text-base text-gray-400 hover:text-white">¿Quiénes somos?</a></li>
                     <li><a href="/servicios" class="text-base text-gray-400 hover:text-white">Servicios</a></li>
@@ -13,15 +13,15 @@
 
             <!-- Legal -->
             <div>
-                <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase">Legal</h3>
+                <h3 class="text-sm font-semibold text-gray-200 tracking-wider">Legal</h3>
                 <ul class="mt-4 space-y-4">
-                    <li><a href="#" class="text-base text-gray-400 hover:text-white">Aviso de Privacidad</a></li>
+                    <li><a href="#" class="text-base text-gray-400 hover:text-white">Aviso de privacidad</a></li>
                 </ul>
             </div>
 
             <!-- Contacto -->
             <div>
-                <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase">Contacto</h3>
+                <h3 class="text-sm font-semibold text-gray-200 tracking-wider">Contacto</h3>
                 <ul class="mt-4 space-y-4">
                     <li class="flex items-start">
                         <x-icons.phone class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />
@@ -29,7 +29,10 @@
                     </li>
                     <li class="flex items-start">
                         <x-icons.mail class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />
-                        <a href="mailto:ar.oftalmo@gmail.com" class="ml-3 text-base text-gray-400 hover:text-white">ar.oftalmo@gmail.com</a>
+                        <div class="ml-3">
+                                <h3 class="text-lg font-medium text-gray-900">Correo electrónico</h3>
+                                <a href="mailto:ar.oftalmo@gmail.com" class="text-base text-gray-600 hover:text-white">ar.oftalmo@gmail.com</a>
+                            </div>
                     </li>
                     <li class="flex items-start">
                         <x-icons.instagram class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />

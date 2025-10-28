@@ -14,7 +14,7 @@
             <!-- Misión Section -->
             <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
                 <div class="mb-10 lg:mb-0">
-                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Nuestra Misión</h2>
+                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Nuestra misión</h2>
                     <p class="mt-4 text-lg text-gray-600">
                         Ser tu principal aliado en la lucha contra el glaucoma. Te ayudamos a comprender y controlar la enfermedad a través de un acompañamiento médico cercano y especializado, utilizando tratamientos vanguardistas para mejorar significativamente tu calidad de vida.
                     </p>
@@ -35,7 +35,7 @@
             <!-- Visión Section -->
             <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
                 <div class="lg:order-2">
-                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Nuestra Visión</h2>
+                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Nuestra visión</h2>
                     <p class="mt-4 text-lg text-gray-600">
                         Aspiramos a ser el centro de referencia nacional en la prevención, diagnóstico y tratamiento integral del glaucoma. Queremos ser reconocidos no solo por nuestra excelencia e innovación médica continua, sino también por la calidez de nuestra atención y la sólida confianza que construimos con cada uno de nuestros pacientes.
                     </p>

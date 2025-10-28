@@ -12,7 +12,7 @@
     <div class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Los Pilares de Nuestro Centro</h2>
+                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Los pilares de nuestro centro</h2>
                 <p class="mt-4 text-lg text-gray-600">Estos son los principios que guían cada una de nuestras acciones y decisiones.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

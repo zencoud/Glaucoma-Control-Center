@@ -17,11 +17,11 @@
     <!-- Contenedor del texto y botones -->
     <div class="relative h-full z-10 flex items-center justify-center bg-black/40">
         <div class="max-w-3xl mx-auto text-center px-4 py-4 sm:px-6 sm:py-6 md:px-8 md:py-8"> <!-- Padding completo aplicado directamente al contenido -->
-            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl m-4 font-extrabold tracking-tight text-white">Atención Especializada para el Control del Glaucoma</h1>
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl m-4 font-extrabold tracking-tight text-white">Atención especializada para el control del glaucoma</h1>
             <p class="text-lg sm:text-lg md:text-xl text-gray-300">Cuidamos tu salud visual con tecnología de vanguardia y un enfoque humano.</p>
             <div class="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
-                <x-button href="/servicios" variant="primary" class="w-full sm:w-auto">Nuestros Servicios</x-button>
-                <x-button href="/quienes-somos" variant="secondary" class="w-full sm:w-auto">Sobre Nosotros</x-button>
+                <x-button href="/servicios" variant="primary" class="w-full sm:w-auto">Nuestros servicios</x-button>
+                <x-button href="/quienes-somos" variant="secondary" class="w-full sm:w-auto">Sobre nosotros</x-button>
             </div>
         </div>
     </div>

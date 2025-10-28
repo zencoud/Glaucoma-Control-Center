@@ -32,6 +32,7 @@
         <div class="flex items-center space-x-2">
             <x-button href="/contacto" variant="primary" class="!py-2 !px-3">
                 <x-icons.phone class="h-5 w-5" />
+                Contacto
             </x-button>
             <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
                 <span class="sr-only">Abrir menú principal</span>

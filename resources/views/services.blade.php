@@ -28,7 +28,7 @@
             <!-- Servicio 2: Diagnóstico -->
             <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
                 <div class="lg:order-2">
-                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Diagnóstico Preciso</h2>
+                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Diagnóstico preciso</h2>
                     <p class="mt-4 text-lg text-gray-600">
                         Un diagnóstico certero es fundamental para un tratamiento exitoso. En Glaucoma Control Center, utilizamos tecnología de diagnóstico de última generación, como la tomografía de coherencia óptica (OCT) y la campimetría computarizada, para obtener una imagen completa de tu nervio óptico y tu campo visual. Esto nos permite confirmar la presencia de glaucoma con una precisión excepcional y determinar el mejor curso de acción para tu caso específico.
                     </p>
@@ -41,7 +41,7 @@
             <!-- Servicio 3: Tratamiento Integral -->
             <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
                 <div class="mb-10 lg:mb-0">
-                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Tratamiento Integral</h2>
+                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Tratamiento integral</h2>
                     <p class="mt-4 text-lg text-gray-600">
                         No existe un único tratamiento para el glaucoma; existe el tratamiento adecuado para ti. Ofrecemos un abanico completo de soluciones personalizadas, desde gotas oftálmicas y medicamentos orales hasta los procedimientos láser más avanzados (trabeculoplastia selectiva con láser o SLT) y cirugías de alta especialidad. Nuestro objetivo es encontrar la estrategia que controle eficazmente tu presión intraocular, detenga la progresión de la enfermedad y se adapte a tu estilo de vida.
                     </p>
