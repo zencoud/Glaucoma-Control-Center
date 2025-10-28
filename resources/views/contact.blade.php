@@ -16,10 +16,10 @@
     <!-- Main Content -->
     <div class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div class="grid grid-cols-1 lg:grid-cols-5 gap-16">
 
                 <!-- Contact Info -->
-                <div>
+                <div class="lg:col-span-2">
                     <h2 class="text-3xl font-extrabold text-primary mb-6">Información de Contacto</h2>
                     <p class="mt-4 text-lg text-gray-600">Estamos aquí para cuidar de tu salud visual.</p>
                     
@@ -66,7 +66,7 @@
                 </div>
 
                 <!-- Contact Form -->
-                <div class="bg-gray-50 p-8 rounded-lg">
+                <div class="lg:col-span-3 bg-gray-50 p-8 rounded-lg">
                     <h2 class="text-3xl font-extrabold text-primary mb-6">Envíanos un mensaje</h2>
                     <p class="mt-4 text-lg text-gray-600">Cuéntanos cómo podemos ayudarte con tu salud visual.</p>
                     

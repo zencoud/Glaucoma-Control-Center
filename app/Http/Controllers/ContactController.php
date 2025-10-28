@@ -15,6 +15,9 @@ class ContactController extends Controller
      */
     public function show()
     {
+        // Establecer el locale en español para esta petición
+        app()->setLocale('es');
+        
         return view('contact');
     }
 
@@ -23,6 +26,9 @@ class ContactController extends Controller
      */
     public function store(Request $request)
     {
+        // Establecer el locale en español para esta petición
+        app()->setLocale('es');
+        
         // Validar los datos del formulario
         $validated = $request->validate([
             'name' => 'required|string|max:255',
