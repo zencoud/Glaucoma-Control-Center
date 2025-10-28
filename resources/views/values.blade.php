@@ -67,4 +67,7 @@
             </div>
         </div>
     </div>
+
+    <!-- CTA Section -->
+    <x-home.cta-section />
 @endsection

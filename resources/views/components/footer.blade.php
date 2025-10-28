@@ -15,7 +15,7 @@
             <div>
                 <h3 class="text-sm font-semibold text-gray-200 tracking-wider">Legal</h3>
                 <ul class="mt-4 space-y-4">
-                    <li><a href="#" class="text-base text-gray-400 hover:text-white">Aviso de privacidad</a></li>
+                    <li><a href="/aviso-de-privacidad" class="text-base text-gray-400 hover:text-white">Aviso de privacidad</a></li>
                 </ul>
             </div>
 
@@ -41,7 +41,19 @@
             <!-- Logo -->
             <div class="space-y-8 text-center">
                 <a href="/" class="inline-block">
-                    <img class="h-[8.25rem] w-auto mx-auto" src="{{ asset('img/glaucoma-control-center-logo.png') }}" alt="Glaucoma Control Center Logo">
+                    <picture>
+                        <img
+                            sizes="(max-width: 1400px) 100vw, 1400px"
+                            srcset="
+                            {{ asset('img/glaucoma-control-center-logo-footer_wmzx9n_c_scale,w_200.png') }} 200w,
+                            {{ asset('img/glaucoma-control-center-logo-footer_wmzx9n_c_scale,w_566.png') }} 566w,
+                            {{ asset('img/glaucoma-control-center-logo-footer_wmzx9n_c_scale,w_840.png') }} 840w,
+                            {{ asset('img/glaucoma-control-center-logo-footer_wmzx9n_c_scale,w_1083.png') }} 1083w,
+                            {{ asset('img/glaucoma-control-center-logo-footer_wmzx9n_c_scale,w_1400.png') }} 1400w"
+                            src="{{ asset('img/glaucoma-control-center-logo-footer_wmzx9n_c_scale,w_1400.png') }}"
+                            alt="Glaucoma Control Center Logo"
+                            class="h-[8.25rem] w-auto mx-auto">
+                    </picture>
                 </a>
                 <p class="text-gray-400 text-base">
                     Cuidando tu salud visual con un enfoque humano y tecnología de vanguardia.

@@ -12,6 +12,7 @@ Route::view('/mision-vision', 'mission');
 Route::view('/valores', 'values');
 Route::view('/servicios', 'services');
 Route::view('/contacto', 'contact');
+Route::view('/aviso-de-privacidad', 'privacy');
 Route::get('/galeria', [GalleryController::class, 'index'])->name('gallery');
 
 // Authentication routes
