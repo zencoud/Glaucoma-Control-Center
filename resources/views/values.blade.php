@@ -14,61 +14,85 @@
     />
 
     <!-- Main Content -->
-    <div class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Los pilares de nuestro centro</h2>
-                <p class="mt-4 text-lg text-gray-600">Estos son los principios que guían cada una de nuestras acciones y decisiones.</p>
+    <div class="bg-gray-50">
+        <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-xl font-semibold text-primary tracking-wide">Nuestros Valores</h2>
+                <p class="mt-8 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">Los pilares de nuestro centro</p>
+                <p class="mt-6 text-lg text-gray-600 max-w-3xl mx-auto">Estos son los principios que guían cada una de nuestras acciones y decisiones.</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Empatía -->
-                <div class="text-center p-6 border border-gray-200 rounded-lg">
-                    <x-icons.heart class="mx-auto h-10 w-10 text-primary" />
-                    <h3 class="mt-4 text-xl font-bold text-gray-900">Empatía</h3>
-                    <p class="mt-2 text-base text-gray-600">Nos ponemos en tu lugar para entender tus preocupaciones y ofrecerte un cuidado compasivo.</p>
-                </div>
-                <!-- Prevención -->
-                <div class="text-center p-6 border border-gray-200 rounded-lg">
-                    <x-icons.shield-check class="mx-auto h-10 w-10 text-primary" />
-                    <h3 class="mt-4 text-xl font-bold text-gray-900">Prevención</h3>
-                    <p class="mt-2 text-base text-gray-600">Actuamos de forma proactiva para proteger tu visión y minimizar riesgos futuros.</p>
-                </div>
-                <!-- Calidad -->
-                <div class="text-center p-6 border border-gray-200 rounded-lg">
-                    <x-icons.badge-check class="mx-auto h-10 w-10 text-primary" />
-                    <h3 class="mt-4 text-xl font-bold text-gray-900">Calidad</h3>
-                    <p class="mt-2 text-base text-gray-600">Buscamos la excelencia en cada diagnóstico, tratamiento y consulta que ofrecemos.</p>
-                </div>
-                <!-- Educación -->
-                <div class="text-center p-6 border border-gray-200 rounded-lg">
-                    <x-icons.book-open class="mx-auto h-10 w-10 text-primary" />
-                    <h3 class="mt-4 text-xl font-bold text-gray-900">Educación</h3>
-                    <p class="mt-2 text-base text-gray-600">Te empoderamos con el conocimiento necesario para que seas un participante activo en tu salud visual.</p>
-                </div>
-                <!-- Confianza -->
-                <div class="text-center p-6 border border-gray-200 rounded-lg">
-                    <x-icons.users class="mx-auto h-10 w-10 text-primary" />
-                    <h3 class="mt-4 text-xl font-bold text-gray-900">Confianza</h3>
-                    <p class="mt-2 text-base text-gray-600">Construimos relaciones duraderas basadas en la transparencia, la honestidad y el respeto mutuo.</p>
-                </div>
-                <!-- Ética -->
-                <div class="text-center p-6 border border-gray-200 rounded-lg">
-                    <x-icons.scale class="mx-auto h-10 w-10 text-primary" />
-                    <h3 class="mt-4 text-xl font-bold text-gray-900">Ética</h3>
-                    <p class="mt-2 text-base text-gray-600">Actuamos siempre con integridad, priorizando tu bienestar por encima de todo.</p>
-                </div>
-                <!-- Responsabilidad -->
-                <div class="text-center p-6 border border-gray-200 rounded-lg">
-                    <x-icons.hand-shake class="mx-auto h-10 w-10 text-primary" />
-                    <h3 class="mt-4 text-xl font-bold text-gray-900">Responsabilidad</h3>
-                    <p class="mt-2 text-base text-gray-600">Asumimos la responsabilidad de ofrecerte el mejor cuidado posible en cada visita.</p>
-                </div>
-                <!-- Compromiso -->
-                <div class="text-center p-6 border border-gray-200 rounded-lg">
-                    <x-icons.link class="mx-auto h-10 w-10 text-primary" />
-                    <h3 class="mt-4 text-xl font-bold text-gray-900">Compromiso</h3>
-                    <p class="mt-2 text-base text-gray-600">Estamos dedicados a tu salud visual a largo plazo, acompañándote en cada etapa.</p>
-                </div>
+            <div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+                <x-value-card
+                    title="Empatía"
+                    description="Nos ponemos en tu lugar para entender tus preocupaciones y ofrecerte un cuidado compasivo."
+                >
+                    <x-slot name="icon">
+                        <x-icons.heart class="h-8 w-8" />
+                    </x-slot>
+                </x-value-card>
+
+                <x-value-card
+                    title="Prevención"
+                    description="Actuamos de forma proactiva para proteger tu visión y minimizar riesgos futuros."
+                >
+                    <x-slot name="icon">
+                        <x-icons.shield-check class="h-8 w-8" />
+                    </x-slot>
+                </x-value-card>
+
+                <x-value-card
+                    title="Calidad"
+                    description="Buscamos la excelencia en cada diagnóstico, tratamiento y consulta que ofrecemos."
+                >
+                    <x-slot name="icon">
+                        <x-icons.badge-check class="h-8 w-8" />
+                    </x-slot>
+                </x-value-card>
+
+                <x-value-card
+                    title="Educación"
+                    description="Te empoderamos con el conocimiento necesario para que seas un participante activo en tu salud visual."
+                >
+                    <x-slot name="icon">
+                        <x-icons.book-open class="h-8 w-8" />
+                    </x-slot>
+                </x-value-card>
+
+                <x-value-card
+                    title="Confianza"
+                    description="Construimos relaciones duraderas basadas en la transparencia, la honestidad y el respeto mutuo."
+                >
+                    <x-slot name="icon">
+                        <x-icons.users class="h-8 w-8" />
+                    </x-slot>
+                </x-value-card>
+
+                <x-value-card
+                    title="Ética"
+                    description="Actuamos siempre con integridad, priorizando tu bienestar por encima de todo."
+                >
+                    <x-slot name="icon">
+                        <x-icons.scale class="h-8 w-8" />
+                    </x-slot>
+                </x-value-card>
+
+                <x-value-card
+                    title="Responsabilidad"
+                    description="Asumimos la responsabilidad de ofrecerte el mejor cuidado posible en cada visita."
+                >
+                    <x-slot name="icon">
+                        <x-icons.hand-shake class="h-8 w-8" />
+                    </x-slot>
+                </x-value-card>
+
+                <x-value-card
+                    title="Compromiso"
+                    description="Estamos dedicados a tu salud visual a largo plazo, acompañándote en cada etapa."
+                >
+                    <x-slot name="icon">
+                        <x-icons.link class="h-8 w-8" />
+                    </x-slot>
+                </x-value-card>
             </div>
         </div>
     </div>
