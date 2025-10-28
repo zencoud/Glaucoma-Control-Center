@@ -24,6 +24,7 @@
     <!-- Main Content -->
     <div class="py-16 bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
             <!-- Misión Section -->
             <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center mb-20">
                 <div class="mb-10 lg:mb-0">
@@ -35,8 +36,8 @@
                         Cada plan de tratamiento es personalizado, basado en la más sólida evidencia científica y apoyado por tecnología de última generación. Nuestro enfoque es siempre humano, ético y profundamente comprometido con la preservación de tu salud visual.
                     </p>
                 </div>
-                <div class="mt-10 lg:mt-0 bg-gray-800 p-8 flex items-center justify-center">
-                    <div class="lazy-image-container" data-src="/img/GLAUCOMA_-_ISOTIPO_NEGATIVO_uj3i7p_c_scale,w_785.png">
+                <div class="mt-10 lg:mt-0 bg-gray-800 p-8 flex items-center justify-center h-full w-full">
+                    <div class="lazy-image-container w-full" data-src="/img/GLAUCOMA_-_ISOTIPO_NEGATIVO_uj3i7p_c_scale,w_785.png">
                         <x-image-skeleton width="w-full" height="h-48" />
                     </div>
                 </div>
@@ -53,8 +54,8 @@
                         Buscamos transformar vidas, mejorando la calidad de visión de nuestra comunidad a través de servicios especializados, una activa educación visual y la rigurosa aplicación de las mejores prácticas clínicas a nivel mundial.
                     </p>
                 </div>
-                <div class="mt-10 lg:mt-0 lg:order-1 bg-white p-8 flex items-center justify-center">
-                    <div class="lazy-image-container" data-src="/img/GLAUCOMA_-_ISOTIPO_POSITIVO_yylf2b_c_scale,w_785.png">
+                <div class="mt-10 lg:mt-0 lg:order-1 bg-white p-8 flex items-center justify-center h-full w-full">
+                    <div class="lazy-image-container w-full" data-src="/img/GLAUCOMA_-_ISOTIPO_POSITIVO_yylf2b_c_scale,w_785.png">
                         <x-image-skeleton width="w-full" height="h-48" />
                     </div>
                 </div>

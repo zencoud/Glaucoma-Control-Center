@@ -41,35 +41,10 @@
                         necesitas para tomar el control de tu salud visual, mejorando así tu calidad de vida.
                     </p>
                 </div>
-                <div class="mt-10 lg:mt-0 lg:order-2">
-                    <picture>
-                        <source
-                            media="(max-width: 767px)"
-                            sizes="(max-width: 687px) 100vw, 687px"
-                            srcset="
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_ar_1_1,c_fill,g_auto__c_scale,w_200.avif') }} 200w,
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_ar_1_1,c_fill,g_auto__c_scale,w_612.avif') }} 612w,
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_ar_1_1,c_fill,g_auto__c_scale,w_687.avif') }} 687w">
-                        <source
-                            media="(min-width: 768px) and (max-width: 991px)"
-                            sizes="(max-width: 981px) 70vw, 687px"
-                            srcset="
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_ar_4_3,c_fill,g_auto__c_scale,w_538.avif') }} 538w,
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_ar_4_3,c_fill,g_auto__c_scale,w_687.avif') }} 687w">
-                        <source
-                            media="(min-width: 992px) and (max-width: 1199px)"
-                            sizes="(max-width: 1145px) 60vw, 687px"
-                            srcset="
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_ar_16_9,c_fill,g_auto__c_scale,w_596.avif') }} 596w,
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_ar_16_9,c_fill,g_auto__c_scale,w_687.avif') }} 687w">
-                        <img
-                            sizes="(max-width: 1718px) 40vw, 687px"
-                            srcset="
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_c_scale,w_480.avif') }} 480w,
-                            {{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_c_scale,w_687.avif') }} 687w"
-                            src="{{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_c_scale,w_687.avif') }}"
-                            alt="Doctor explicando a paciente">
-                    </picture>
+                <div class="mt-10 lg:mt-0 lg:order-2 w-full">
+                    <div class="lazy-image-container w-full" data-src="{{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_c_scale,w_687.avif') }}">
+                        <x-image-skeleton width="w-full" height="aspect-auto" />
+                    </div>
                 </div>
             </div>
         </div>

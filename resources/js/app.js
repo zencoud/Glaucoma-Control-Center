@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         const img = document.createElement('img');
                         img.src = imageSrc;
                         img.alt = 'Glaucoma Control Center';
-                        img.className = 'w-full h-48 object-contain transition-opacity duration-500';
+                        img.className = 'w-full aspect-auto object-contain transition-opacity duration-500';
                         img.style.opacity = '0';
                         
                         // Reemplazar skeleton con imagen
@@ -102,10 +102,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 const img = document.createElement('img');
                 img.src = imageSrc;
                 img.alt = 'Glaucoma Control Center';
-                img.className = 'w-full h-48 object-contain';
+                img.className = 'w-full aspect-auto object-contain';
                 container.innerHTML = '';
                 container.appendChild(img);
             }
         });
     }
 });
+
+// (Modo desarrollo removido)

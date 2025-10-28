@@ -17,21 +17,10 @@
                     necesitas para tomar el control de tu salud visual, mejorando así tu calidad de vida.
                 </p>
             </div>
-            <div class="mt-10 lg:mt-0">
-                <picture>
-                    <img
-                        sizes="(max-width: 1400px) 100vw, 1400px"
-                        srcset="
-                        {{ asset('img/2149082423_szhtm6_c_scale,w_200.jpg') }} 200w,
-                        {{ asset('img/2149082423_szhtm6_c_scale,w_563.jpg') }} 563w,
-                        {{ asset('img/2149082423_szhtm6_c_scale,w_795.jpg') }} 795w,
-                        {{ asset('img/2149082423_szhtm6_c_scale,w_1037.jpg') }} 1037w,
-                        {{ asset('img/2149082423_szhtm6_c_scale,w_1284.jpg') }} 1284w,
-                        {{ asset('img/2149082423_szhtm6_c_scale,w_1392.jpg') }} 1392w,
-                        {{ asset('img/2149082423_szhtm6_c_scale,w_1400.jpg') }} 1400w"
-                        src="{{ asset('img/2149082423_szhtm6_c_scale,w_1400.jpg') }}"
-                        alt="">
-                </picture>
+            <div class="mt-10 lg:mt-0 w-full">
+                <div class="lazy-image-container w-full" data-src="{{ asset('img/2149082423_szhtm6_c_scale,w_1400.jpg') }}">
+                    <x-image-skeleton width="w-full" height="aspect-auto" />
+                </div>
             </div>
         </div>
     </div>
