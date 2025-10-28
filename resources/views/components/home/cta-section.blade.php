@@ -6,7 +6,10 @@
         </h2>
         <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div class="inline-flex rounded-md">
-                <x-button href="/contacto" variant="dark">Ponerse en contacto</x-button>
+                <x-button href="/contacto" variant="dark" class="inline-flex items-center">
+                    <x-icons.hand-shake class="-ml-1 mr-2 h-5 w-5" />
+                    Ponerse en contacto
+                </x-button>
             </div>
         </div>
     </div>

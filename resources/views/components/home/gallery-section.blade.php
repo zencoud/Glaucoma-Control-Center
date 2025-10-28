@@ -15,35 +15,14 @@
                     <x-home-gallery-card :image="$image" />
                 @endforeach
             </div>
+            
+            <div class="mt-12 text-center">
+                <x-button href="/galeria" variant="primary">Ver galería completa</x-button>
+            </div>
         @else
-            <!-- Fallback images when no gallery images exist -->
-            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white">
-                    <img src="https://images.unsplash.com/photo-1612534260388-71b839003940?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="clinic-reception-area.jpg" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-primary">Recepción</h3>
-                        <p class="mt-4 text-base text-gray-600">Un ambiente acogedor y profesional para recibirte.</p>
-                    </div>
-                </div>
-                <div class="bg-white">
-                    <img src="https://images.unsplash.com/photo-1579684385127-6c1d73494735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="modern-medical-equipment.jpg" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-primary">Tecnología Avanzada</h3>
-                        <p class="mt-4 text-base text-gray-600">Equipos de última generación para diagnósticos precisos.</p>
-                    </div>
-                </div>
-                <div class="bg-white">
-                    <img src="https://images.unsplash.com/photo-1631217872992-79CCA1459461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="comfortable-waiting-room.jpg" class="w-full h-64 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-primary">Sala de Espera</h3>
-                        <p class="mt-4 text-base text-gray-600">Espacio cómodo y tranquilo para tu comodidad.</p>
-                    </div>
-                </div>
+            <div class="mt-12">
+                <x-gallery-empty />
             </div>
         @endif
-        
-        <div class="mt-12 text-center">
-            <x-button href="/galeria" variant="primary">Ver galería completa</x-button>
-        </div>
     </div>
 </div>

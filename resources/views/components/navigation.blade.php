@@ -9,10 +9,14 @@
                 </a>
             </div>
 
-            <!-- Desktop CTA Button -->
-            <div>
+            <!-- Right side: Contact button and WhatsApp -->
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/523343024883" target="_blank" class="inline-flex items-center text-gray-900 hover:text-gray-700 transition-colors duration-300">
+                    <x-icons.whatsapp class="h-5 w-5 mr-2" />
+                    <span class="text-sm font-medium">33 4302 4883</span>
+                </a>
                 <x-button href="/contacto" variant="primary" class="inline-flex items-center">
-                    <x-icons.phone class="-ml-1 mr-2 h-5 w-5" />
+                    <x-icons.hand-shake class="-ml-1 mr-2 h-5 w-5" />
                     Contacto
                 </x-button>
             </div>
@@ -31,9 +35,13 @@
         <!-- Mobile Buttons -->
         <div class="flex items-center space-x-2">
             <x-button href="/contacto" variant="primary" class="!py-2 !px-3">
-                <x-icons.phone class="h-5 w-5" />
-                Contacto
+                <x-icons.hand-shake class="h-5 w-5" />
+                <span class="sr-only">Contacto</span>
             </x-button>
+            <a href="https://wa.me/523343024883" target="_blank" class="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-gray-700 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
+                <x-icons.whatsapp class="h-5 w-5" />
+                <span class="sr-only">WhatsApp</span>
+            </a>
             <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
                 <span class="sr-only">Abrir menú principal</span>
                 <x-icons.bars-3 ::class="{'hidden': open, 'block': !open}" class="h-6 w-6" />

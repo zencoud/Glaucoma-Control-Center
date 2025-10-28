@@ -21,29 +21,36 @@
 
 @php
     $inputId = $id ?? $name;
-    $inputClasses = 'shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md transition-colors duration-200';
+    $baseClasses = 'block w-full text-base font-medium py-3 px-4 border rounded-md transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2';
+    
+    $variantClasses = [
+        'default' => 'border-gray-300 bg-white text-gray-900 placeholder-gray-500 focus:ring-primary focus:border-primary hover:border-gray-400',
+        'error' => 'border-red-500 bg-white text-gray-900 placeholder-red-400 focus:ring-red-500 focus:border-red-500',
+        'disabled' => 'border-gray-300 bg-gray-50 text-gray-500 cursor-not-allowed',
+        'readonly' => 'border-gray-300 bg-gray-50 text-gray-700',
+    ];
+    
+    $inputClasses = $baseClasses;
     
     if ($error) {
-        $inputClasses .= ' border-red-500 focus:ring-red-500 focus:border-red-500';
-    }
-    
-    if ($disabled) {
-        $inputClasses .= ' bg-gray-50 text-gray-500 cursor-not-allowed';
-    }
-    
-    if ($readonly) {
-        $inputClasses .= ' bg-gray-50';
+        $inputClasses .= ' ' . $variantClasses['error'];
+    } elseif ($disabled) {
+        $inputClasses .= ' ' . $variantClasses['disabled'];
+    } elseif ($readonly) {
+        $inputClasses .= ' ' . $variantClasses['readonly'];
+    } else {
+        $inputClasses .= ' ' . $variantClasses['default'];
     }
     
     $inputClasses .= ' ' . $class;
 @endphp
 
-<div class="space-y-1">
+<div class="space-y-2">
     @if($label)
-        <label for="{{ $inputId }}" class="block text-sm font-medium text-gray-700">
+        <label for="{{ $inputId }}" class="block text-sm font-semibold text-gray-900 mb-2">
             {{ $label }}
             @if($required)
-                <span class="text-red-500">*</span>
+                <span class="text-red-500 ml-1">*</span>
             @endif
         </label>
     @endif
@@ -89,7 +96,7 @@
             {{ $attributes }}
         >
     @elseif($type === 'checkbox')
-        <div class="flex items-center">
+        <div class="flex items-start">
             <input 
                 type="checkbox" 
                 name="{{ $name }}" 
@@ -98,11 +105,11 @@
                 @if(old($name, $value)) checked @endif
                 @if($required) required @endif
                 @if($disabled) disabled @endif
-                class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded transition-colors duration-200"
+                class="h-5 w-5 text-primary focus:ring-primary border-gray-300 rounded transition-colors duration-200 mt-0.5"
                 {{ $attributes }}
             >
             @if($label)
-                <label for="{{ $inputId }}" class="ml-2 block text-sm text-gray-900">
+                <label for="{{ $inputId }}" class="ml-3 block text-sm font-medium text-gray-900">
                     {{ $label }}
                 </label>
             @endif
@@ -123,10 +130,10 @@
     @endif
 
     @if($help)
-        <p class="text-xs text-gray-500">{{ $help }}</p>
+        <p class="text-sm text-gray-600 mt-1">{{ $help }}</p>
     @endif
 
     @if($error)
-        <p class="text-sm text-red-600">{{ $error }}</p>
+        <p class="text-sm text-red-600 mt-1 font-medium">{{ $error }}</p>
     @endif
 </div>

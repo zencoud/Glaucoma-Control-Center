@@ -29,10 +29,7 @@
                     </li>
                     <li class="flex items-start">
                         <x-icons.mail class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />
-                        <div class="ml-3">
-                                <h3 class="text-lg font-medium text-gray-900">Correo electrónico</h3>
-                                <a href="mailto:ar.oftalmo@gmail.com" class="text-base text-gray-600 hover:text-white">ar.oftalmo@gmail.com</a>
-                            </div>
+                        <a href="mailto:ar.oftalmo@gmail.com" class="ml-3 text-base text-gray-400 hover:text-white">ar.oftalmo@gmail.com</a>
                     </li>
                     <li class="flex items-start">
                         <x-icons.instagram class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />
