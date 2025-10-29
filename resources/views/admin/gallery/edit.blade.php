@@ -36,6 +36,7 @@
             current-image="{{ $gallery->thumbnail_url }}"
             current-image-alt="{{ $gallery->title }}"
             error="{{ $errors->first('image') }}"
+            :required="false"
         />
 
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
