@@ -82,7 +82,7 @@
                 <div class="bg-gray-50 p-6 rounded-lg">
                     <p class="text-gray-600 mb-2"><strong>Glaucoma Control Center</strong></p>
                     <p class="text-gray-600 mb-2">Teléfono: <a href="tel:3343024883" class="text-primary hover:text-primary/80">33 4302 4883</a></p>
-                    <p class="text-gray-600 mb-2">Email: <a href="mailto:ar.oftalmo@gmail.com" class="text-primary hover:text-primary/80">ar.oftalmo@gmail.com</a></p>
+                    <p class="text-gray-600 mb-2">Email: <a href="mailto:ar.oftalmo@glaucomacc.com.mx" class="text-primary hover:text-primary/80">ar.oftalmo@glaucomacc.com.mx</a></p>
                 </div>
 
                 <div class="mt-8 pt-6 border-t border-gray-200">

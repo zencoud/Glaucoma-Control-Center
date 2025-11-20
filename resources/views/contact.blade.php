@@ -28,7 +28,7 @@
 
                 <!-- Contact Info -->
                 <div class="lg:col-span-2">
-                    <h2 class="text-3xl font-extrabold text-primary mb-6">Información de Contacto</h2>
+                    <h2 class="text-3xl font-extrabold text-primary mb-6">INFORMACIÓN DE CONTACTO</h2>
                     <p class="mt-4 text-lg text-gray-600">Estamos aquí para cuidar de tu salud visual.</p>
                     
                     <div class="mt-8 space-y-8">
@@ -41,7 +41,7 @@
                             <div class="ml-4">
                                 <h3 class="text-xl font-semibold text-gray-900">Teléfono</h3>
                                 <a href="tel:3343024883" class="text-lg text-gray-600 hover:text-primary transition-colors duration-300">33 4302 4883</a>
-                                <p class="text-sm text-gray-500 mt-1">Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                                <p class="text-sm text-gray-500 mt-1">Lunes a viernes de 9 a 2 pm</p>
                             </div>
                         </div>
                         
@@ -53,7 +53,7 @@
                             </div>
                             <div class="ml-4">
                                 <h3 class="text-xl font-semibold text-gray-900">Correo Electrónico</h3>
-                                <a href="mailto:ar.oftalmo@gmail.com" class="text-lg text-gray-600 hover:text-primary transition-colors duration-300">ar.oftalmo@gmail.com</a>
+                                <a href="mailto:ar.oftalmo@glaucomacc.com.mx" class="text-lg text-gray-600 hover:text-primary transition-colors duration-300">ar.oftalmo@glaucomacc.com.mx</a>
                                 <p class="text-sm text-gray-500 mt-1">Respuesta en 24 horas</p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
                             </div>
                             <div class="ml-4">
                                 <h3 class="text-xl font-semibold text-gray-900">Instagram</h3>
-                                <a href="https://instagram.com/ar.oftalmo" target="_blank" class="text-lg text-gray-600 hover:text-primary transition-colors duration-300">@ar.oftalmo</a>
+                                <a href="https://instagram.com/glaucomacc" target="_blank" class="text-lg text-gray-600 hover:text-primary transition-colors duration-300">@glaucomacc</a>
                                 <p class="text-sm text-gray-500 mt-1">Síguenos para consejos de salud visual</p>
                             </div>
                         </div>

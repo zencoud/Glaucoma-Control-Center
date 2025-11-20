@@ -45,18 +45,18 @@
                 <div class="lg:order-2">
                     <h2 class="text-3xl font-extrabold text-primary sm:text-4xl mb-10">Diagnóstico preciso</h2>
                     <p class="mt-4 text-lg text-gray-600">
-                        Un diagnóstico certero es fundamental para un tratamiento exitoso. En Glaucoma Control Center, utilizamos tecnología de diagnóstico de última generación, como la tomografía de coherencia óptica (OCT) y la campimetría computarizada, para obtener una imagen completa de tu nervio óptico y tu campo visual. Esto nos permite confirmar la presencia de glaucoma con una precisión excepcional y determinar el mejor curso de acción para tu caso específico.
+                        Un diagnóstico certero es fundamental para un tratamiento exitoso. En Glaucoma Control Center, evaluamos tus estudios especializados, como la tomografía de coherencia óptica (OCT) y la campimetría computarizada, para confirmar la presencia de glaucoma con una precisión excepcional y determinar el mejor curso de acción para tu caso específico.
                     </p>
                 </div>
                 <div class="mt-10 lg:mt-0 lg:order-1 flex items-center justify-center w-full">
-                    <div class="lazy-image-container w-full" data-src="/img/69192_snd5xn_c_scale,w_2000.jpg">
+                    <div class="lazy-image-container w-full" data-src="/img/2150801430.jpg">
                         <x-image-skeleton width="w-full" height="aspect-auto" />
                     </div>
                 </div>
             </div>
 
             <!-- Servicio 3: Tratamiento Integral -->
-            <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center mb-20">
                 <div class="mb-10 lg:mb-0">
                     <h2 class="text-3xl font-extrabold text-primary sm:text-4xl mb-10">Tratamiento integral</h2>
                     <p class="mt-4 text-lg text-gray-600">
@@ -66,6 +66,79 @@
                 <div class="mt-10 lg:mt-0 w-full">
                     <div class="lazy-image-container w-full" data-src="/img/hombre-con-primer-plano-de-gotas-para-los-ojos_cdl95r_c_scale,w_2800.jpg">
                         <x-image-skeleton width="w-full" height="aspect-auto" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lista de Servicios -->
+            <div class="bg-gray-50 rounded-lg p-8 lg:p-12">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-extrabold text-primary sm:text-4xl mb-4">Servicios</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Ofrecemos una amplia gama de servicios especializados para el cuidado integral de tu salud visual</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Consulta oftalmológica general -->
+                    <div class="bg-white p-6 group">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <x-icons.eye class="h-8 w-8" />
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 text-center">Consulta oftalmológica general</h3>
+                    </div>
+
+                    <!-- Consulta especializada de glaucoma -->
+                    <div class="bg-white p-6 group">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <x-icons.document-text class="h-8 w-8" />
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 text-center">Consulta especializada de glaucoma</h3>
+                    </div>
+
+                    <!-- Consulta on-line -->
+                    <div class="bg-white p-6 group">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <x-icons.link class="h-8 w-8" />
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 text-center">Consulta on-line</h3>
+                    </div>
+
+                    <!-- Láser para glaucoma -->
+                    <div class="bg-white p-6 group">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <x-icons.check-circle class="h-8 w-8" />
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 text-center">Láser para glaucoma</h3>
+                    </div>
+
+                    <!-- Cirugía -->
+                    <div class="bg-white p-6 group">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <x-icons.scale class="h-8 w-8" />
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 text-center">Cirugía</h3>
+                    </div>
+
+                    <!-- Terapia de Ojo Seco -->
+                    <div class="bg-white p-6 group">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <x-icons.heart class="h-8 w-8" />
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 text-center">Terapia de Ojo Seco</h3>
+                    </div>
+
+                    <!-- Óptica -->
+                    <div class="bg-white p-6 group">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <x-icons.eye class="h-8 w-8" />
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 text-center">Óptica</h3>
+                    </div>
+
+                    <!-- Farmacia -->
+                    <div class="bg-white p-6 group">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <x-icons.shield-check class="h-8 w-8" />
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 text-center">Farmacia</h3>
                     </div>
                 </div>
             </div>

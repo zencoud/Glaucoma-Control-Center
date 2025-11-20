@@ -22,7 +22,7 @@
     />
 
     <!-- Main Content -->
-    <div class="bg-white">
+    <div class="bg-white py-30">
         <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
             <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
                 <div class="lg:order-1">
@@ -42,8 +42,13 @@
                     </p>
                 </div>
                 <div class="mt-10 lg:mt-0 lg:order-2 w-full">
-                    <div class="lazy-image-container w-full" data-src="{{ asset('img/photo-1550831107-1553da8c8464_1_fc8rgz_c_scale,w_687.avif') }}">
+                    <div class="lazy-image-container w-full" data-src="{{ asset('img/doctora.png') }}">
                         <x-image-skeleton width="w-full" height="aspect-auto" />
+                    </div>
+                    <div class="mt-6 text-center lg:text-left">
+                        <h3 class="text-2xl font-bold text-primary">Dra. Miriam Adriana Ramos Hernández</h3>
+                        <p class="mt-2 text-lg text-gray-700">Cirujana oftalmóloga / Especialista en glaucoma</p>
+                        <p class="mt-2 text-lg font-semibold text-gray-800">Fundadora y Directora de Glaucoma Control Center</p>
                     </div>
                 </div>
             </div>

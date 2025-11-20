@@ -4,14 +4,14 @@
             <div>
                 <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Un refugio de confianza para tu salud
                     visual</h2>
-                <p class="mt-10 text-xl text-gray-600">
+                <p class="mt-10 text-xl text-gray-600 indent-8">
                     En Glaucoma Control Center, somos más que un centro médico; somos un equipo de profesionales
                     apasionados, dedicados exclusivamente al diagnóstico, prevención y tratamiento integral del
                     glaucoma. Entendemos la incertidumbre que esta condición puede generar, y por eso nuestro compromiso
                     va más allá del tratamiento: te ofrecemos un acompañamiento cercano, humano y ético en cada paso del
                     camino.
                 </p>
-                <p class="mt-6 text-xl text-gray-600">
+                <p class="mt-6 text-xl text-gray-600 indent-8">
                     Nuestro equipo está conformado por oftalmólogos con subespecialidad y una vasta experiencia en el
                     manejo del glaucoma. Nos enfocamos en brindarte soluciones personalizadas y la confianza que
                     necesitas para tomar el control de tu salud visual, mejorando así tu calidad de vida.

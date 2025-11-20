@@ -29,11 +29,11 @@
                     </li>
                     <li class="flex items-start">
                         <x-icons.mail class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />
-                        <a href="mailto:ar.oftalmo@gmail.com" class="ml-3 text-base text-gray-400 hover:text-white">ar.oftalmo@gmail.com</a>
+                        <a href="mailto:ar.oftalmo@glaucomacc.com.mx" class="ml-3 text-base text-gray-400 hover:text-white">ar.oftalmo@glaucomacc.com.mx</a>
                     </li>
                     <li class="flex items-start">
                         <x-icons.instagram class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />
-                        <a href="https://instagram.com/ar.oftalmo" target="_blank" class="ml-3 text-base text-gray-400 hover:text-white">@ar.oftalmo</a>
+                        <a href="https://instagram.com/glaucomacc" target="_blank" class="ml-3 text-base text-gray-400 hover:text-white">@glaucomacc</a>
                     </li>
                 </ul>
             </div>
