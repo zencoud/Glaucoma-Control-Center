@@ -103,8 +103,8 @@
 
                     <!-- Láser para glaucoma -->
                     <div class="bg-white p-6 group">
-                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none text-white mx-auto mb-4">
-                            <img src="{{ asset('img/laser-icon (1).png') }}" alt="Láser para glaucoma" class="w-full h-full object-contain">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <img src="{{ asset('img/laser-icon (1) (1).png') }}" alt="Láser para glaucoma" class="w-8 h-8 object-contain">
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 text-center">Láser para glaucoma</h3>
                     </div>
@@ -112,7 +112,7 @@
                     <!-- Cirugía -->
                     <div class="bg-white p-6 group">
                         <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
-                            <img src="{{ asset('img/cirugía-icon.png') }}" alt="Cirugía para glaucoma" class="w-full h-full object-contain">
+                            <img src="{{ asset('img/cirugía-icon (1).png') }}" alt="Cirugía para glaucoma" class="w-8 h-8 object-contain">
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 text-center">Cirugía</h3>
                     </div>
@@ -127,8 +127,8 @@
 
                     <!-- Óptica -->
                     <div class="bg-white p-6 group">
-                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none text-white mx-auto mb-4">
-                            <img src="{{ asset('img/óptica-icon.png') }}" alt="Óptica para glaucoma" class="w-full h-full object-contain">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
+                            <img src="{{ asset('img/óptica-icon (1).png') }}" alt="Óptica para glaucoma" class="w-8 h-8 object-contain">
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 text-center">Óptica</h3>
                     </div>
