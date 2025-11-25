@@ -69,7 +69,15 @@ document.addEventListener('DOMContentLoaded', function() {
                         const img = document.createElement('img');
                         img.src = imageSrc;
                         img.alt = 'Glaucoma Control Center';
-                        img.className = 'w-full aspect-auto object-contain transition-opacity duration-500';
+                        
+                        // Verificar si debe usar object-cover
+                        const useCover = container.getAttribute('data-cover') === 'true';
+                        if (useCover) {
+                            img.className = 'w-full h-full object-cover transition-opacity duration-500';
+                        } else {
+                            img.className = 'w-full aspect-auto object-contain transition-opacity duration-500';
+                        }
+                        
                         img.style.opacity = '0';
                         
                         // Reemplazar skeleton con imagen
@@ -102,7 +110,15 @@ document.addEventListener('DOMContentLoaded', function() {
                 const img = document.createElement('img');
                 img.src = imageSrc;
                 img.alt = 'Glaucoma Control Center';
-                img.className = 'w-full aspect-auto object-contain';
+                
+                // Verificar si debe usar object-cover
+                const useCover = container.getAttribute('data-cover') === 'true';
+                if (useCover) {
+                    img.className = 'w-full h-full object-cover';
+                } else {
+                    img.className = 'w-full aspect-auto object-contain';
+                }
+                
                 container.innerHTML = '';
                 container.appendChild(img);
             }

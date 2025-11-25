@@ -1,6 +1,6 @@
 <div class="bg-white">
     <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-stretch">
             <div>
                 <h2 class="text-3xl font-extrabold text-primary sm:text-4xl">Un refugio de confianza para tu salud
                     visual</h2>
@@ -17,9 +17,9 @@
                     necesitas para tomar el control de tu salud visual, mejorando así tu calidad de vida.
                 </p>
             </div>
-            <div class="mt-10 lg:mt-0 w-full">
-                <div class="lazy-image-container w-full" data-src="{{ asset('img/2149082423_szhtm6_c_scale,w_1400.jpg') }}">
-                    <x-image-skeleton width="w-full" height="aspect-auto" />
+            <div class="mt-10 lg:mt-0 w-full h-full">
+                <div class="lazy-image-container w-full h-full" data-src="{{ asset('img/2149082423_szhtm6_c_scale,w_1400.jpg') }}" data-cover="true">
+                    <x-image-skeleton width="w-full" height="h-full" />
                 </div>
             </div>
         </div>
