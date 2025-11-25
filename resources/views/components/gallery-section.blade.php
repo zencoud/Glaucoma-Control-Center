@@ -11,7 +11,7 @@
 ])
 
 @php
-    $galleryImages = \App\Models\GalleryImage::active()->latest()->take($limit)->get();
+    $galleryImages = \App\Models\GalleryImage::active()->orderBy('order')->latest()->take($limit)->get();
 @endphp
 
 <div class="{{ $background }}">
