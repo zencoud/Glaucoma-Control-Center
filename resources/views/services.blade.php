@@ -80,7 +80,7 @@
                     <!-- Consulta oftalmológica general -->
                     <div class="bg-white p-6 group">
                         <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
-                            <x-icons.eye class="h-8 w-8" />
+                            <img src="{{ asset('img/ojo-seco-icon.png') }}" alt="Consulta oftalmológica general" class="w-8 h-8 object-contain">
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 text-center">Consulta oftalmológica general</h3>
                     </div>
@@ -104,7 +104,7 @@
                     <!-- Láser para glaucoma -->
                     <div class="bg-white p-6 group">
                         <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
-                            <img src="{{ asset('img/laser-icon (1) (1).png') }}" alt="Láser para glaucoma" class="w-8 h-8 object-contain">
+                            <img src="{{ asset('img/laser-icon (1) (1) (1).png') }}" alt="Láser para glaucoma" class="w-8 h-8 object-contain">
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 text-center">Láser para glaucoma</h3>
                     </div>
