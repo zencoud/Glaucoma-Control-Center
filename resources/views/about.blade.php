@@ -36,7 +36,7 @@
                         camino.
                     </p>
                     <p class="mt-6 text-xl text-gray-600">
-                        Nuestro equipo está conformado por oftalmólogos con subespecialidad y una vasta experiencia en el
+                        Nuestro equipo está conformado por oftalmólogos con alta especialidad y una vasta experiencia en el
                         manejo del glaucoma. Nos enfocamos en brindarte soluciones personalizadas y la confianza que
                         necesitas para tomar el control de tu salud visual, mejorando así tu calidad de vida.
                     </p>

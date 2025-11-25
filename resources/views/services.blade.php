@@ -103,8 +103,8 @@
 
                     <!-- Láser para glaucoma -->
                     <div class="bg-white p-6 group">
-                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
-                            <x-icons.check-circle class="h-8 w-8" />
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none text-white mx-auto mb-4">
+                            <img src="{{ asset('img/laser-icon.png') }}" alt="Láser para glaucoma" class="w-full h-full object-contain">
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 text-center">Láser para glaucoma</h3>
                     </div>
@@ -112,7 +112,7 @@
                     <!-- Cirugía -->
                     <div class="bg-white p-6 group">
                         <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
-                            <x-icons.scale class="h-8 w-8" />
+                            <img src="{{ asset('img/cirugía-icon.png') }}" alt="Cirugía para glaucoma" class="w-full h-full object-contain">
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 text-center">Cirugía</h3>
                     </div>
@@ -127,8 +127,8 @@
 
                     <!-- Óptica -->
                     <div class="bg-white p-6 group">
-                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none bg-primary text-white mx-auto mb-4">
-                            <x-icons.eye class="h-8 w-8" />
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-none text-white mx-auto mb-4">
+                            <img src="{{ asset('img/óptica-icon.png') }}" alt="Óptica para glaucoma" class="w-full h-full object-contain">
                         </div>
                         <h3 class="text-lg font-semibold text-gray-900 text-center">Óptica</h3>
                     </div>

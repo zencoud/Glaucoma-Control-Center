@@ -37,7 +37,7 @@
                     </p>
                 </div>
                 <div class="mt-10 lg:mt-0 flex items-center justify-center h-full w-full">
-                    <div class="lazy-image-container w-80 h-80 rounded-full overflow-hidden mx-auto" data-src="{{ asset('img/doctora-selfie.png') }}" data-circular="true">
+                    <div class="lazy-image-container mx-auto" data-src="{{ asset('img/misión.png') }}" data-circular="true">
                         <x-image-skeleton width="w-full" height="h-full" />
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                     </p>
                 </div>
                 <div class="mt-10 lg:mt-0 lg:order-1 bg-white p-8 flex items-center justify-center h-full w-full">
-                    <div class="lazy-image-container w-full" data-src="/img/54e2a4da-8f2a-4d97-8869-d91d44b10b0e.png">
+                    <div class="lazy-image-container w-full" data-src="/img/vision.png">
                         <x-image-skeleton width="w-full" height="h-48" />
                     </div>
                 </div>

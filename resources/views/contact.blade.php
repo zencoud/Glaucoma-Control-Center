@@ -70,6 +70,19 @@
                                 <p class="text-sm text-gray-500 mt-1">Síguenos para consejos de salud visual</p>
                             </div>
                         </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                                    <x-icons.facebook class="h-6 w-6 text-primary" />
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-xl font-semibold text-gray-900">Facebook</h3>
+                                <a href="https://facebook.com/glaucomacc" target="_blank" class="text-lg text-gray-600 hover:text-primary transition-colors duration-300">Glaucoma Control Center</a>
+                                <p class="text-sm text-gray-500 mt-1">Visita nuestra página de Facebook</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -174,6 +187,40 @@
                             </x-button>
                         </div>
                     </form>
+                </div>
+            </div>
+
+            <!-- Location Map Section -->
+            <div class="mt-16">
+                <h2 class="text-3xl font-extrabold text-primary mb-6">UBICACIÓN</h2>
+                <div class="flex items-start mb-6">
+                    <div class="flex-shrink-0">
+                        <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
+                            <x-icons.map-pin class="h-6 w-6 text-primary" />
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-xl font-semibold text-gray-900">Dirección</h3>
+                        <p class="text-lg text-gray-600">Hospital Real San José Valle Real, Torre de consultorios piso 5 consultorio 4A</p>
+                    </div>
+                </div>
+                <div class="w-full h-96 rounded-lg overflow-hidden shadow-lg">
+                    {{-- 
+                        Para obtener la URL correcta del mapa:
+                        1. Ve a Google Maps y busca: "Hospital Real San José Valle Real, Torre de consultorios piso 5 consultorio 4A"
+                        2. Haz clic en "Compartir" y luego en "Insertar un mapa"
+                        3. Copia la URL del iframe y reemplázala en el atributo src
+                    --}}
+                    <iframe 
+                        src="https://www.google.com/maps?q=Hospital+Real+San+José+Valle+Real+Torre+de+consultorios+piso+5+consultorio+4A+Guadalajara+Jalisco+Mexico&output=embed" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="w-full h-full"
+                    ></iframe>
                 </div>
             </div>
 
