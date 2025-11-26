@@ -16,6 +16,8 @@
                 <h3 class="text-sm font-semibold text-gray-200 tracking-wider">Legal</h3>
                 <ul class="mt-4 space-y-4">
                     <li><a href="/aviso-de-privacidad" class="text-base text-gray-400 hover:text-white">Aviso de privacidad</a></li>
+                    <li><a href="/terminos-y-condiciones" class="text-base text-gray-400 hover:text-white">Términos y condiciones</a></li>
+                    <li>Aviso de Publicidad: 2514102002A00478</li>
                 </ul>
             </div>
 
