@@ -84,6 +84,12 @@
                     <p class="text-gray-600 mb-2">Teléfono: <a href="tel:3343024883" class="text-primary hover:text-primary/80">33 4302 4883</a></p>
                     <p class="text-gray-600 mb-2">Email: <a href="mailto:ar.oftalmo@glaucomacc.com.mx" class="text-primary hover:text-primary/80">ar.oftalmo@glaucomacc.com.mx</a></p>
                 </div>
+                <br>
+                <p>
+                    <strong>Número de ingreso:</strong>
+                    <br>
+                    2514102002A00478
+                </p>
 
                 <div class="mt-8 pt-6 border-t border-gray-200">
                     <p class="text-sm text-gray-500">

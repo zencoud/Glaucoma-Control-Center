@@ -35,6 +35,11 @@
                         <x-icons.instagram class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />
                         <a href="https://instagram.com/glaucomacc" target="_blank" class="ml-3 text-base text-gray-400 hover:text-white">@glaucomacc</a>
                     </li>
+                    <!-- doctoralia -->
+                    <li class="flex items-start">
+                        <x-icons.doctoralia class="flex-shrink-0 h-6 w-6 text-gray-400 mt-0.5" />
+                        <a href="https://www.doctoralia.com.mx/miriam-adriana-ramos-hdez/oftalmologo/zapopan#addresses-section" target="_blank" class="ml-3 text-base text-gray-400 hover:text-white">Glaucoma Control Center</a>
+                    </li>
                 </ul>
             </div>
 
